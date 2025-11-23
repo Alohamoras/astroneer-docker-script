@@ -1,0 +1,50 @@
+# Astroneer Server Files
+server/
+backups/
+config/
+
+# Environment files with sensitive data
+.env
+
+# Docker Compose override (user customizations)
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Python (if users extend the scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Backup files
+*.bak
+*.backup
